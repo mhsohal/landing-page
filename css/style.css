@@ -1,0 +1,308 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none !important;
+}
+.header{
+    background: #fff;
+}
+.wp-25{
+    width: 10%;
+}
+.shadow{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+/* Start Menu Area */
+.menuSearch{
+/*    border: 1px solid #000;*/
+    border-radius: 7px;
+    padding: 2px 10px;
+}
+.menuSearch input.form-control{
+    border: 0;
+}
+/* End Menu Area */
+/* Start Hero Area */ 
+.hero{
+    
+}
+.hero-container{
+    width: 100%;
+}
+.hero-container img,
+.carousel-inner .carousel-item{
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    transform: translate(45%,-35%)
+}
+.heroText{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+/*    transform: translate(-50%,-50%);*/
+}
+.heroText img{
+    width: 54px;
+    height: 50px;
+}
+.heroBtn{
+    background: #a74447;
+    border: 0;
+    border-radius: ;
+}
+.heroIcon span{
+    background: #fff;
+    padding: 10px;
+}
+.heroIcon span i{
+    color: #000;
+    font-size: 20px;
+}
+/* End Hero Area */
+/* Start Listing Area */
+.listing{
+    position: absolute;
+    width: 60%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,75%);
+}
+.listingIn{
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+.listingIn .row{
+    display: flex;
+    align-items: flex-end;
+}
+.listingIn .listimg{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+/* End Listing Area */
+/* Start cashback Area */
+.cashback{
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+.cashback img{
+    width: 100%;
+}
+/* End cashback Area */
+/* Start explore Area */
+.explore
+{
+    margin-bottom: 100px;
+    position: relative;
+}
+.exploreIn::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    bottom: 0;
+    background-color: #a74447;
+    width: 53px;
+    height: 5px;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+/* End explore Area */
+/* Start Best Deals Area */
+.bestDeal{
+    margin-bottom: 100px;
+}
+/* End Best Deals Area */
+/* Start Business Area */
+.navImg{
+    max-width: 100%;
+}
+/* End Business Area */
+/* Start Top Brands Area */
+.tBrand{
+    background: #fff;
+    overflow: hidden;
+}
+.tBrand p{
+    position: relative;
+    background: #a74447;
+    color: #fff;
+    top: 10px;
+    right: 35%;
+    padding: 3px 0;
+    padding-right: 10px;
+    font-size: 12px;
+}
+/* End Top Brands Area */
+/* Start Monsoon Area */
+.monsoon{
+    background-image: url("../image/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.monsoonIn{
+    width: 100%;
+    overflow: hidden;
+}
+.monsoonTitle{
+    margin-bottom: 30px;
+}
+.monsoonContent{
+    z-index: 2;
+    position: absolute;
+    top: %;
+    width: 100%;
+    height: 300px;
+}
+.mLeft{
+    margin-left: 400px;
+}
+/* End Monsoon Area */
+/* Start Must try Area */
+/*
+
+.mTryIn,
+.grabIn,
+.home_AIn,
+.bDealsIn,
+.healthIn,
+.tBrandIn,
+.deal{
+    position: relative;
+}
+.mTryTitle::before,
+.grabTitle::before,
+.home_ATitle::before,
+.bDealsTitle::before,
+.healthTitle::before,
+.tBrandTitle::before,
+.dealTitle::before{
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 2.5%;
+    width: 53px;
+    height: 3px;
+    background: #a74447;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+.home_ATitle::before{
+    content: "";
+    position: absolute;
+    top: 18%;
+    left: 2.5%;
+    width: 53px;
+    height: 3px;
+    background: #a74447;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+.bDealsTitle::before{
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: 2.5%;
+    width: 53px;
+    height: 3px;
+    background: #a74447;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+.dealTitle::before{
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: 2.5%;
+    width: 53px;
+    height: 3px;
+    background: #a74447;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+*/
+.mTry{
+    margin-top: 250px;
+    margin-bottom: 75px;
+}
+/* End Must try Area */
+/* Start App Area */
+.appText p{
+    width: 65%;
+}
+.appIcon img{
+    width: 120px;
+}
+.appImage img{
+    max-width: 100%;
+}
+/* End App Area */
+
+/* Start Footer Area */
+.fBottom .social i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #a74447;
+}
+.fTop ul li,
+.fTop{
+    background: #000;
+}
+.fTop ul li a{
+    color: #fff;
+}
+/* End Footer Area */
+
+.mTryTitle,
+.grabTitle,
+.home_ATitle,
+.bDealsTitle,
+.healthTitle,
+.tBrandTitle,
+.dealTitle{
+    position: relative;
+}
+.mTryTitle h3::before,
+.grabTitle h3::before,
+.home_ATitle h3::before,
+.bDealsTitle h3::before,
+.healthTitle h3::before,
+.tBrandTitle h3::before,
+.dealTitle h3::before{
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 4%;
+    width: 53px;
+    height: 3px;
+    background: #a74447;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+
+.mb_sm{
+    margin-bottom: 15px;
+}
+

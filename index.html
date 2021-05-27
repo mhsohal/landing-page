@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croodle Up</title>
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Fontawesome CDN link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Main CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Start Header Area -->
+    <section class="header" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav border menuSearch p-0 mr-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span><i class="fas fa-house-user"></i></span> Bangalore
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ml-1 border menuSearch">
+                        <span><i class="fas fa-search"></i></span>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search for Services" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Partner up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active d-flex">
+                            <a class="nav-link" href="#" class="text-dark mr-4">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <span><i class="fas fa-user"></i></span>
+                                    <span>Profile</span>
+                                </div>
+                            </a>
+                            <a class="nav-link" href="#" class="text-dark">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <span><i class="fas fa-shopping-cart"></i></span>
+                                    <span>Cart</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- End Header Area -->
+    
+    <!-- Start Hero Area -->
+    <section class="hero">
+        <div class="hero-container px-0">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/slide/slide-1.png" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block w-25 text-left">
+                        <div class="container">
+                            <div class="heroText">
+                                <img src="image/Landing_WhiteLogo.png" alt="" class="img-fluid mb-2">
+                                <h1>Let's Croodle Up</h1>
+                                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                                <button type="button" class="btn btn-primary px-4 py-2 rounded-pill heroBtn">Register Now <span><i class="fas fa-arrow-right ml-2"></i></span></button>
+                                <p class="mt-3">Ready for Download Now.</p>
+                                <div class="heroIcon">
+                                    <span class="rounded mr-2"><i class="fab fa-google-play"></i></span>
+                                    <span class="rounded"><i class="fab fa-google-play"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listing">
+                <div class="container">
+                    <div class="listingIn rounded">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Business-Listing.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Business Listing</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Product-Listing.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Product Listing</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Events.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Events</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Coupons.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Coupons</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Finance.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Finance</p>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="d-flex flex-column align-items-center">
+                                    <div class="listimg"><img src="image/Coupons.png" alt="" class="img-fluid w-40"></div>
+                                    <p class="m-0 mt-3">Documents</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    
+    <!-- Start Cashback Area -->
+    <section class="cashback">
+        <div class="container">
+            <div>
+                <img src="image/promotion.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Cashback Area -->
+    
+    <!-- Start Explore Area -->
+    <div class="explore">
+        <div class="container">
+            <div class="exploreIn d-flex flex-column m-auto w-50 text-center">
+                <h3>Explore the business around you</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Explore Area -->
+    
+    <!-- Start Best deals Area -->
+    <section class="bestDeal">
+        <div class="container-fluid">
+            <div class="deal">
+                <div class="container dealTitle">
+                    <h3>Best deals around you</h3>
+                </div>
+                <div class="dealContent mLeft py-5">
+                    <div class="dealBox">
+                        <div class="row responsiveTwo">
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/marks-and-spencer-generic.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/cult-fit.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/apollo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/cult-fit.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/marks-and-spencer-generic.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow" style="width: 18rem;">
+                                    <img src="image/cult-fit.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>Marks &amp; Spencer</h4>
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p class="m-0 ml-2">Bangalore, Karnataka</p>
+                                        </span>
+                                        <p style="font-size: 13px;" class="m-0 mt-3"><span class="font-weight-bold">Deals with:</span>Fashion . Clothing . Shopping</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Best deals Area -->
+    
+    <!-- Start Business Area -->
+    <section class="business">
+        <div class="container">
+            <div class="businessIn">
+                <div class="businessTitle">
+                    <h3>Browse businesses by more categories</h3>
+                </div>
+                <div class="businessContent py-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <ul class="nav flex-column">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">
+<!--                                    <img src="image/noun_clothing.png" alt="" class="img-fluid navImg">-->
+                                    Fashion
+<!--                                    <img src="image/Chevron_Right.png" alt="" class="img-fluid navImg">-->
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                              </li>
+                            </ul>
+                        </div>
+                        <div class="col-9 p-0">
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 shadow mb-3">
+                                <div class="d-flex justify-content-between align-items-center bg-">
+                                    <div class="w-25">
+                                        <img src="image/marks-and-spencer-generic.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="w-50 ml-3">
+                                        <div class="">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <spna>Bangalore, Karnataka</spna>
+                                        </div>
+                                        <h4 style="font-size: 20px">Marks &amp; Spencer</h4>
+                                        <p class="m-0" style="font-size: 13px">Marks and Spencer Group plc is a major British ultinational retailer with headquarters in London, England, that specialises in selling clothing, home products and food products, mostly of its own</p>
+                                        <p style="font-size: 13px;" class="m-0"><span class="font-weight-bold">Deals with:</span> Fashion . Clothing . Shopping</p>
+                                    </div>
+                                    <div class="w-25 text-right">
+                                        <button type="button" class="btn btn-danger px-5">View Deals</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Business Area -->
+
+    <!-- Start Top Brands Area -->
+    <section class="topBrand">
+        <div class="container-fluid">
+            <div class="tBrandIn">
+                <div class="container tBrandTitle">
+                    <h3>Top brands in Bangalore</h3>
+                </div>
+                <div class="tBrandContent mLeft py-5">
+                    <div class="row responsive">
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/nykaa.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/mecdonalds.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/big-bazaar.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/max.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/cafe-coffee.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/kfc.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/flipkart.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/nykaa.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="tBrand border shadow">
+                                <p class="m-0 rounded text-right">10% OFF</p>
+                                <img src="image/mecdonalds.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Brands Area -->
+
+    <!-- Start Health Area -->
+    <section class="health">
+        <div class="container-fluid">
+            <div class="healthIn">
+                <div class="container healthTitle">
+                    <h3>Health Essentials</h3>
+                </div>
+                <div class="healthContent mLeft py-5">
+                    <div class="row responsive">
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/safety-masks.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Safety Masks</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/protein-powder.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Protein Poweders</p>
+                                <p class="m-0">Min 10% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/omega.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Omega-3 Fish Oil</p>
+                                <p class="m-0">Shop Now!</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/supplements.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Refrigetators</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/supplements.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Supplements</p>
+                                <p class="m-0">Flat 220 Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/safety-masks.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Safety Masks</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/protein-powder.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Protein Poweders</p>
+                                <p class="m-0">Min 10% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/omega.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Omega-3 Fish Oil</p>
+                                <p class="m-0">Shop Now!</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/supplements.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Refrigetators</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/supplements.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Supplements</p>
+                                <p class="m-0">Flat 220 Off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Health Area -->
+
+    <!-- Start Ad Slide -->
+    <section class="adSlide">
+        <div class="container">
+            <div class="row center">
+                <div class="col-7 mr-2">
+                    <img src="image/couponpage1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 mr-2">
+                    <img src="image/TV_Ad.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 mr-2">
+                    <img src="image/couponpage3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 mr-2">
+                    <img src="image/couponpage1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 mr-2">
+                    <img src="image/TV_Ad.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 mr-2">
+                    <img src="image/couponpage3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Ad Slide -->
+
+    <!-- Start Beast deals Area -->
+    <section class="bDeals mt-5">
+        <div class="container-fluid">
+            <div class="bDealsIn">
+                <div class="container bDealsTitle">
+                    <h3>Beast deals of the day</h3>
+                </div>
+                <div class="bDealsContent mLeft my-5">
+                    <div class="row responsiveTwo">
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/Image8.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/Image.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/Image1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/c1.jpg" class="card-img-top img-fluid" alt="..." style="height: 310px">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/Image9.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="image/Image9.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4>Google Pixel</h4>
+                                    <p class="m-0">Mobile</p>
+                                    <p class="m-0 mt-3">₹ 51,500 <strike>₹ 1,02,00</strike> <span style="color: red">50% OFF</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Beast deals Area -->
+
+    <!-- Start Home Area -->
+    <section class="home_A">
+        <div class="container-fluid">
+            <div class="home_AIn">
+                <div class="container home_ATitle">
+                    <h3>Home appliances</h3>
+                </div>
+                <div class="home_AContent my-5 mLeft">
+                    <div class="row responsive">
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/samsung.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Televisions</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/mixer.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Mixer &amp; Grinders</p>
+                                <p class="m-0">Min 10% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/chimney.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Chimneys</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/refigerator.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Refrigetators</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/samsung.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Televisions</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/mixer.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Mixer &amp; Grinders</p>
+                                <p class="m-0">Min 10% Off</p>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm border mr-3">
+                            <div class="text-center pb-3">
+                                <img src="image/chimney.png" alt="" class="img-fluid">
+                                <p class="m-0 font-weight-bold">Chimneys</p>
+                                <p class="m-0">Min 30% Off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home Area -->
+
+    <!-- Start Grab Area -->
+    <section class="grab">
+        <div class="container-fluid">
+            <div class="grabIn">
+                <div class="container grabTitle">
+                    <h3>Grab most used coupons</h3>
+                </div>
+                <div class="grabContent my-5 mLeft">
+                    <div class="grabIn">
+                        <div class="row responsiveTwo">
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/img2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/big-basket.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/img1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/img3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/img2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/big-basket.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- End Grab Area -->
+
+    <!-- Start Monsoon Area -->
+<!--
+    <section class="monsoon pt-5">
+        <div class="container-fluid">
+            <div class="monsoonIn">
+                <div class="monsoonTitle">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-12">
+                            <h3>Monsoon picks for you..</h3>
+                            <p class="m-0">Foggy Mountains and camping experiences are calling. Explore the best suits for you.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="monsoonContent mLeft">
+                    <div class="monsoon_In">
+                        <div class="row responsiveTwo">
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 shadow">
+                                <div class="card">
+                                    <img src="image/b1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="tBoxL">
+                                                <h4>Water surfing in Goa</h4>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                    <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                                </div>
+                                            </div>
+                                            <div class="tBoxR">
+                                                <p class="m-0">₹1000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- End Monsoon Area -->
+
+    <!-- Start Must try Area -->
+    <section class="mTry">
+        <div class="container-fluid">
+            <div class="mTryIn">
+               <div class="row">
+                   <div class="col-12">
+                       <div class="container mTryTitle">
+                    <h3>Must try experiences</h3>
+                </div>
+                   </div>
+                   <div class="col-12">
+                       <div class="mTryContent my-5">
+                    <div class="row responsiveTwo">
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 shadow-sm">
+                            <div class="card">
+                                <img src="image/b3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="tBoxL">
+                                            <h4>Water surfing in Goa</h4>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2">North Goa - Karnataka</p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p class="m-0 ml-2"><span>3.5</span> (234 Reviews)</p>
+                                            </div>
+                                        </div>
+                                        <div class="tBoxR">
+                                            <p class="m-0">₹1000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   </div>
+               </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Must try Area -->
+
+    <!-- Start App Area -->
+    <section class="app my-4">
+        <div class="container">
+            <div class="appIn">
+                <div class="row align-items-center">
+                    <div class="col-12 order-2 order-lg-1 col-lg-8 text-center">
+                        <div class="appText">
+                            <h4 class="mb-4">Ready to download apps now</h4>
+                            <p class="mb-4 text-center w-50 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            <div class="appIcon mt-3">
+                                <img src="image/ios.png" alt="" class="mr-2">
+                                <img src="image/android.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 order-1 order-lg-2 mb-5 mb-lg-0 text-center col-lg-4">
+                        <div class="appImage">
+                            <img src="image/Image-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End App Area -->
+
+    <!-- Start Footer Area -->
+    <section class="footer">
+        <div class="fTop py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 text-center text-md-left">
+                        <ul class="list-group">
+                            <li  class="list-group-item  font-weight-bold"><a href="#">HELP</a></li>
+                            <li  class="list-group-item"><a href="#">FAQ</a></li>
+                            <li  class="list-group-item"><a href="#">24/7 Customer Support</a></li>
+                            <li  class="list-group-item"><a href="#">Terms and Conditions</a></li>
+                            <li  class="list-group-item"><a href="#">Privacy</a></li>
+                            <li  class="list-group-item"><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 text-center text-md-left">
+                        <ul class="list-group">
+                            <li  class="list-group-item font-weight-bold"><a href="#">CROODLE UP</a></li>
+                            <li  class="list-group-item"><a href="#">Partner Up</a></li>
+                            <li  class="list-group-item"><a href="#">About Us</a></li>
+                            <li  class="list-group-item"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 text-center text-md-left">
+                        <ul class="list-group">
+                            <li  class="list-group-item m-auto"><a href="#">
+                                <span class="d-flex">
+                                    <i class="fas fa-envelope fa-2x"></i>
+                                    <p class="m-0 ml-3">croodleup@gmail.com</p>
+                                </span>
+                            </a></li>
+                            <li  class="list-group-item m-auto"><a href="#">
+                                <span class="d-flex">
+                                    <i class="fas fa-phone-alt fa-2x"></i>
+                                    <p class="m-0 ml-3">+91 91411 33678</p>
+                                </span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fBottom py-3 bg-white">
+            <div class="container">
+                <div class="row align-items-center text-center">
+                    <div class="col-sm-12 col-md-6 mb-md-0 text-md-left mb_sm">
+                        <div class="social">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-md-right mb-md-0">
+                        <p class="m-0 text-lg-right text-danger">From Ezio Tech Solution <br>Version 1.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!-- End Footer Area -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
